@@ -1,0 +1,28 @@
+---
+BasedOnStyle: WebKit
+
+AlignTrailingComments: true
+
+AllowShortBlocksOnASingleLine:       true
+AllowShortCaseLabelsOnASingleLine:   true
+AllowShortFunctionsOnASingleLine:    All
+AllowShortLambdasOnASingleLine:      All
+AllowShortIfStatementsOnASingleLine: Always
+AllowShortLoopsOnASingleLine:        true
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel:        false
+  AfterClass:            false
+  AfterControlStatement: false
+  AfterEnum:             false
+  AfterFunction:         false
+  AfterNamespace:        false
+  AfterObjCDeclaration:  false
+  AfterStruct:           false
+  AfterUnion:            false
+  AfterExternBlock:      false
+  BeforeCatch:           true
+  BeforeElse:            true
+  IndentBraces:          false
+...

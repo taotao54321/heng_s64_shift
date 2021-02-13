@@ -1,0 +1,3 @@
+#!/bin/sh
+
+CXXFLAGS='-Wconversion -fsanitize=undefined -fno-sanitize-recover=all' LDFLAGS='-fsanitize=undefined -fno-sanitize-recover=all' meson build && ninja -v -C build
